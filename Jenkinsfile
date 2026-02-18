@@ -4,7 +4,7 @@ pipeline{
         stage("Restore dep."){
             when {
                 anyOf{
-                    branch 'maim'
+                    branch 'main'
                     branch 'feature'
                 }
             }
